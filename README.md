@@ -23,3 +23,8 @@ Python CLI tool to convert image, document, and media files.
 
 ```bash
 pip install -r requirements.txt
+
+
+## Run
+
+python main.py
