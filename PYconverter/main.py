@@ -80,7 +80,7 @@ file_path = console.input("File path: ")
 output_ext = console.input("Output extension: ")
 output_name = console.input("Output filename: ")
 
-output_dir = r""
+output_dir = "output"
 os.makedirs(output_dir, exist_ok=True)
 
 output_file = os.path.join(output_dir, f"{output_name}.{output_ext}")
